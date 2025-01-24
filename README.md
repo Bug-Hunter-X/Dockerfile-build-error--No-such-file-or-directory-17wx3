@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to execute a file that hasn't been copied into the image. The initial Dockerfile is flawed because it tries to run `/app/main.py` without copying it. The solution shows how to correctly copy the file from the build context.
